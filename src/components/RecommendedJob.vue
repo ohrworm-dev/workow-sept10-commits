@@ -1,5 +1,4 @@
 <template>
-
 <div class="max-w-sm rounded overflow-hidden shadow-lg"> <!-- parent div for background styling and allignment -->
 
     <div class="px-6 py-4"> <!-- Div 1, includes job title and company -->
@@ -9,7 +8,7 @@
 
     <div class="  px-6 py-4"> <!-- Div 2, includes job description -->
         <p class="text-gray-700 text-base">
-        {{ job.description }}
+        
         </p>
     </div>
 
@@ -32,10 +31,10 @@ export default Vue.extend({
   // Do I need data if the component has no created data, and only uses inherited data, such as job.description in this case?
 
   // Do I need props if I have data?
-  // props: {
+  props: {
   //     // How do I reference the job description? job.description?
   //     job: {
   //         type: Object as PropType<JobSearchRecommendation>
-  // }
+  }
 })
 </script>

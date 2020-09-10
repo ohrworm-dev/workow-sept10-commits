@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <RecommendedJob/>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 import HelloWorld from './components/HelloWorld.vue'
 import RecommendedJob from './components/RecommendedJob.vue'
 
-export default Vue.extend({
+export default {
   name: 'App',
   components: {
     HelloWorld,
     RecommendedJob
   }
-})
+}
 </script>
 
 <style>
