@@ -5,11 +5,11 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
-    screens: {
-      sm: '640px',
-      md: '768px',
+    screens: { // mobile first + desktop version
+      // sm: '640px',
+      // md: '768px',
       lg: '1024px',
-      xl: '1280px'
+      // xl: '1280px'
     },
     colors: {
       transparent: 'transparent',
@@ -329,9 +329,9 @@ module.exports = {
       ...negative(theme('spacing'))
     }),
     maxHeight: {
+      '1/5': '20%',
       full: '100%',
-      screen: '100vh',
-      fifth: '20%'
+      screen: '100vh'
     },
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
@@ -350,6 +350,7 @@ module.exports = {
     }),
     minHeight: {
       0: '0',
+      '1/5': '20%',
       full: '100%',
       screen: '100vh'
     },
