@@ -1,26 +1,22 @@
 <template>
-<div class="max-w-sm rounded overflow-hidden shadow-lg"> <!-- parent div for background styling and allignment -->
+  <div class=" max-h-full rounded shadow-md bg-gray-300"> <!-- parent div for background styling and allignment -->
+      <div class="w-full px-4 py-4"> <!-- Div 1, includes job title and company -->
+          <div class="block font-bold text-lg text-gray-800">Job Title</div>
+          <div class="block text-gray-700">Company</div>
+      </div>
+      <p class=" px-5 py-4 text-gray-600 text-base overflow-y-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit rutrum mollis. In hac habitasse platea dictumst. Ut risus metus, aliquet quis cursus in, blandit id neque. Proin ornare tortor et finibus eleifend. Cras ornare sed velit in egestas. Suspendisse sed massa tincidunt, dictum sapien posuere, iaculis purus. Pellentesque efficitur sed urna eu condimentum. Donec eget ex maximus, posuere ligula eu, sollicitudin quam. Etiam eu orci ligula.
+      </p>
 
-    <div class="px-6 py-4"> <!-- Div 1, includes job title and company -->
-        <div class="font-bold text-xl mb-2">job title</div>
-        <div class="font-bold text-xl mb-2">company</div>
+      <div class="flex justify-between space-x-2 px-4 py-4"> <!-- Div 3, includes two buttons -->
+          <button class="w-1/2 py-3 bg-gray-600 hover:bg-gray-700 text-white font-bold rounded-md">
+          Apply Now
+          </button>
+          <button class=" w-1/2 bg-transparent hover:bg-gray-500 text-gray-600 font-bold hover:text-white border-2 border-gray-600 hover:border-transparent rounded-md">
+          Save
+          </button>
     </div>
-
-    <div class="  px-6 py-4"> <!-- Div 2, includes job description -->
-        <p class="text-gray-700 text-base">
-        
-        </p>
-    </div>
-
-    <div class=""> <!-- Div 3, includes two buttons -->
-        <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded">
-        Apply Now
-        </button>
-        <button class="bg-transparent hover:bg-gray-500 text-gray-700 hover:text-white py-2 px-4 border border-gray-600 hover:border-transparent rounded">
-        Save
-        </button>
   </div>
-</div>
 </template>
 
 <script lang="ts">

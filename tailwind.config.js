@@ -330,7 +330,8 @@ module.exports = {
     }),
     maxHeight: {
       full: '100%',
-      screen: '100vh'
+      screen: '100vh',
+      fifth: '20%'
     },
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
