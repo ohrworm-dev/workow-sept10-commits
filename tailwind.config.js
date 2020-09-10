@@ -329,7 +329,6 @@ module.exports = {
       ...negative(theme('spacing'))
     }),
     maxHeight: {
-      '1/5': '20%',
       full: '100%',
       screen: '100vh'
     },
@@ -728,7 +727,7 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus'],
     order: ['responsive'],
     outline: ['responsive', 'focus'],
-    overflow: ['responsive'],
+    overflow: ['responsive', 'hover'],
     overscrollBehavior: ['responsive'],
     padding: ['responsive'],
     placeContent: ['responsive'],
