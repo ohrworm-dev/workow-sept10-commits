@@ -18,7 +18,7 @@
           <button class="px-4 py-4 flex-1 bg-gray-600 hover:bg-gray-700 text-white font-bold rounded-md">
           Apply Now
           </button>
-          <button class=" flex-1 bg-transparent hover:bg-gray-500 text-gray-500 hover:text-white font-bold border-2 border-gray-500 hover:border-transparent rounded-md">
+          <button class=" flex-1 bg-transparent hover:bg-gray-500 text-gray-600 hover:text-white font-bold border-2 border-gray-500 hover:border-transparent rounded-md">
           Save
           </button>
     </div>
