@@ -1,28 +1,29 @@
 <template>
     <div class="bg-white w-64 h-screen"> <!--parent container for background styling-->
         <div class="border-b border-gray-400"> <!--logo-->
-            <img class="px-8 py-8" src="@/assets/logo.png"/>
+            <img class=" py-8" src="@/assets/logo.png"/>
         </div>
-        <div>
-            <ul>
-                <li class="navitem">
+
+        <div >
+            <ul class="px-8 flex-col items-stretch">
+                <li>
                     Home
                 </li>
 
-                <li class="navitem">
+                <li>
                     Browse Job
-                    <ul>
-                        <li class="subnavitem">by title</li>
-                        <li class="subnavitem">by company</li>
-                        <li class="subnavitem">by salary</li>
+                    <ul class="px-16">
+                        <li>by title</li>
+                        <li>by company</li>
+                        <li>by salary</li>
                     </ul>
                 </li>
 
-                <li class="navitem">
+                <li>
                     Post Job
                 </li>
 
-                <li class="navitem">
+                <li>
                     Help
                 </li>
             </ul>
@@ -37,10 +38,5 @@ export default Vue.extend({
 </script>
 
 <style>
-.navitem {
-    @apply mb-8 px-8;
-}
-.subnavitem {
-    @apply mb-8 px-16;
-}
+
 </style>
